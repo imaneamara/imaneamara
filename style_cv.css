@@ -28,7 +28,7 @@ body{
    top : 0;
    position: inherit;
    z-index: 1;
-   background-image: url("https://cdn.discordapp.com/attachments/899052038854414386/967856111883526224/Banniere_cv_haut.png");
+   background-image: url("Bannière\ cv\ haut.png");
    background-color: transparent;
    color : #F8F8FF;
    border: dashed;
@@ -166,7 +166,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://zupimages.net/up/22/16/dz1i.png");
+    background-image: url("Bannière\ cv\ haut.png");
     text-shadow: #F8F8FF 1px 0 10px;
     color: #F8F8FF;
     border: dashed;
