@@ -50,7 +50,7 @@ body{
     text-shadow: 0px 0px 2px rgb(255, 255, 255), 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(255, 255, 255);
     justify-content: center;
     align-items: center;
-    margin: -190px;
+    margin: 7px;
     position: relative;
     width: 140px;
     height: 30px;
@@ -194,17 +194,17 @@ body{
     margin-right: 45px;
  } 
 
-.enbas retourhaut {
+.enbas .retourhaut {
     font-family: 'Homemade Apple', cursive;
     font-size: 20px;
     text-align: center;
     font-weight: bold;
     padding-right: 35px;
     text-shadow: #F8F8FF 1px 0 10px;
-    color: #F8F8FF;
+    color: red;
 }
 
-.enbas retourhaut:hover {
+.enbas .retourhaut:hover {
     text-decoration: underline;
     color: #F8F8FF;
 }
