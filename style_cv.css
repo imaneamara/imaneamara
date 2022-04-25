@@ -190,6 +190,22 @@ body{
     float: right;
     margin-right: 45px;
  } 
+
+.en bas #retourhaut {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding-right: 35px;
+    text-shadow: #F8F8FF 1px 0 10px;
+    color: #F8F8FF;
+}
+
+.en bas #retourhaut:hover {
+    text-decoration: underline;
+    color: #F8F8FF;
+}
+    
  
  /* Barre de separation */
  
