@@ -4,7 +4,8 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="style_cv.css">
 		<script>src="pdf.js"</script>
-		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
 		<title>Mon CV</title>
 		
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,7 +21,7 @@
 	
 	<body onload="sameSize('.agauche', '.adroite', 'photo')" onresize="sameSize('.agauche', '.adroite', 'photo')">
 
-		<div class="entete">
+		<div class="entete" id="curriculumvitae">
 			<h1><center>Curriculum Vitae d' Imane Amara</center></h1>
 			<form>
 			<center><a href="#Experiences" class="button">Expériences</a>
