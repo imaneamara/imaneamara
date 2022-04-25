@@ -1,4 +1,7 @@
 /*********** BODY  + Modifications balises de bases ***********/ 
+html { 
+    scroll-behavior: smooth;
+}
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -191,7 +194,7 @@ body{
     margin-right: 45px;
  } 
 
-.en bas #retourhaut {
+.enbas retourhaut {
     font-family: 'Homemade Apple', cursive;
     font-size: 20px;
     text-align: center;
@@ -201,7 +204,7 @@ body{
     color: #F8F8FF;
 }
 
-.en bas #retourhaut:hover {
+.enbas retourhaut:hover {
     text-decoration: underline;
     color: #F8F8FF;
 }
