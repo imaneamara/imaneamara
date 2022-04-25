@@ -144,8 +144,9 @@ body{
     border-radius: 40px;
  }
 
-.adroite > div > h2 > .moutainh2
+.adroite .moutainh2
     width: 25px;
+    color: red;
     min-width: 25px;
     min-height: 25px;
     height:25px;
