@@ -199,6 +199,7 @@ body{
     font-family: 'Homemade Apple', cursive;
     font-size: 17px;
     text-align: center;
+    text-decoration: none;
     font-weight: bold;
     padding-right: 35px;
     text-shadow: #F8F8FF 1px 0 10px;
@@ -208,7 +209,7 @@ body{
 .enbas .retourhaut:hover {
     text-decoration: none;
     color: #3f474f;
-    transition: background 0.5s ease-in;
+    transition: 0.5s ease-in;
 }
     
  
