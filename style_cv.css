@@ -131,6 +131,7 @@ body{
     margin-bottom: 2%;
     padding-left: 15px;
  }
+
  .adroite > div > h2 {
     font-family: 'Homemade Apple', cursive;
     text-shadow: 3px 2px #B8CBD0;
@@ -179,7 +180,7 @@ body{
  
  .enbas #prenom {
     font-family: 'Homemade Apple', cursive;
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
     font-weight: bold;
     padding-right: 35px;
@@ -196,17 +197,18 @@ body{
 
 .enbas .retourhaut {
     font-family: 'Homemade Apple', cursive;
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
     font-weight: bold;
     padding-right: 35px;
     text-shadow: #F8F8FF 1px 0 10px;
-    color: red;
+    color: #F8F8FF;
 }
 
 .enbas .retourhaut:hover {
-    text-decoration: underline;
-    color: #F8F8FF;
+    text-decoration: none;
+    color: #3f474f;
+    transition: background 0.5s ease-in;
 }
     
  
