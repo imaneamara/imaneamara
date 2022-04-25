@@ -1,7 +1,4 @@
 /*********** BODY  + Modifications balises de bases ***********/ 
-html { 
-    scroll-behavior: smooth;
-}
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -50,7 +47,7 @@ body{
     text-shadow: 0px 0px 2px rgb(255, 255, 255), 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(255, 255, 255);
     justify-content: center;
     align-items: center;
-    margin: 7px;
+    margin: 6px;
     position: relative;
     width: 140px;
     height: 30px;
@@ -69,6 +66,33 @@ body{
     transition: background 0.5s ease-in;
  }
  
+ #download {
+   display: inline-flex;
+   font-family: 'Homemade Apple', cursive;
+   color: #FDFEFE;
+   background-color: transparent;
+   text-align: center;
+   text-shadow: 0px 0px 2px rgb(255, 255, 255), 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(255, 255, 255);
+   justify-content: center;
+   align-items: center;
+   margin: 6px;
+   position: relative;
+   width: 140px;
+   height: 34px;
+   border: dashed;
+   border-width: 2px 4px;
+   border-radius: 40px;
+   font-size: 1em;
+   text-decoration: none;
+   box-shadow: 0 2px 8px 0 #999;
+ }
+
+ #download:hover { 
+   background-color: #3f474f;
+   background: rgba(105, 105, 105, .75);
+   transition: background 0.5s ease-in;
+}
+
  /*********** Partie gauche ***********/ 
  
  .agauche {
@@ -95,8 +119,24 @@ body{
     align-items: center;
  }
  
+ .agauche .agaucheicon {
+   width: 10px;
+   height: 10px;
+   position: relative;
+   top: 15px;
+   margin-right: 10px;
+   fill: rgb(106, 10, 10);
+ }
+
  .agauche ul {
     margin-bottom: 50px;
+ }
+
+   .agauche .telpic {
+      width: 100px;
+      height: 14px;
+      top: 15px;
+      margin-right: 10px;
  }
  
  /*********** Image partie gauche ***********/ 
@@ -115,6 +155,8 @@ body{
     
  /*********** Partie droite ***********/ 
  
+ 
+ 
  .adroite {
     width: 70%;
     background-color: #F8F8FF;
@@ -129,7 +171,6 @@ body{
     margin-bottom: 2%;
     padding-left: 15px;
  }
-
  .adroite > div > h2 {
     font-family: 'Homemade Apple', cursive;
     text-shadow: 3px 2px #B8CBD0;
@@ -144,11 +185,11 @@ body{
     border-radius: 40px;
  }
 
-.adroite .mountainh2 {
-    height: 53px;
-    margin-left: -90px;
-    float: right;
-    margin-right: 22px;
+ .adroite .mountainh2 {
+   height: 53px;
+   margin-left: -90px;
+   float: right;
+   margin-right: 22px;
 }
  
  .adroite #Divers {
@@ -159,6 +200,7 @@ body{
     margin-bottom: 30px;
     margin-top: 30px;
  }
+ 
  
  .adroite div {
     margin-bottom: 70px;
@@ -184,7 +226,7 @@ body{
  
  .enbas #prenom {
     font-family: 'Homemade Apple', cursive;
-    font-size: 17px;
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
     padding-right: 35px;
@@ -198,24 +240,6 @@ body{
     float: right;
     margin-right: 45px;
  } 
-
-.enbas .retourhaut {
-    font-family: 'Homemade Apple', cursive;
-    font-size: 17px;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    padding-right: 35px;
-    text-shadow: #F8F8FF 1px 0 10px;
-    color: #F8F8FF;
-}
-
-.enbas .retourhaut:hover {
-    text-decoration: none;
-    color: #3f474f;
-    transition: 0.5s ease-in;
-}
-    
  
  /* Barre de separation */
  
