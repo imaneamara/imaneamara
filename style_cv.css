@@ -115,8 +115,6 @@ body{
     
  /*********** Partie droite ***********/ 
  
- 
- 
  .adroite {
     width: 70%;
     background-color: #F8F8FF;
@@ -145,6 +143,16 @@ body{
     border-width: 2px 4px;
     border-radius: 40px;
  }
+
+.adroite > div > h2 > img
+    width: 25px;
+    min-width: 25px;
+    min-height: 25px;
+    height:25px;
+    float: right;
+    margin-right: 45px;
+    text-align: right;
+}
  
  .adroite #Divers {
     margin-bottom: 3px;
@@ -154,7 +162,6 @@ body{
     margin-bottom: 30px;
     margin-top: 30px;
  }
- 
  
  .adroite div {
     margin-bottom: 70px;
