@@ -144,15 +144,11 @@ body{
     border-radius: 40px;
  }
 
-.adroite img.mountainh2 {
-    width: 25px;
-    color: red;
-    min-width: 25px;
-    min-height: 25px;
-    height:25px;
+.adroite .mountainh2 {
+    height: 53px;
+    margin-left: -90px;
     float: right;
-    margin-right: 45px;
-    text-align: right;
+    margin-right: 22px;
 }
  
  .adroite #Divers {
