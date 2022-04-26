@@ -1,9 +1,8 @@
-/*********** BODY  + Modifications balises de bases ***********/ 
 html { 
    scroll-behavior: smooth; 
-   
-}
+   }
 
+/*********** BODY  + Modifications balises de bases ***********/ 
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -13,7 +12,7 @@ body{
     margin-bottom : 1px;
     padding : 5px;
     min-width: 900px;
-    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Ffr%2Fsearch%2Fmontagne&psig=AOvVaw3KozFDPSlV6e0zVD6xZEMO&ust=1651047008255000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNDIiMajsfcC);
+    background-image: url;
  }
  
  h1 {
@@ -21,7 +20,7 @@ body{
     font-family: 'Homemade Apple', cursive;
  
  }
- 
+
  li {
     margin-bottom: 10px;
  }
@@ -178,6 +177,10 @@ body{
  .adroite h3 {
     margin-bottom: 30px;
     margin-top: 30px;
+    letter-spacing: 3px;
+    background: linear-gradient(to right, #36ecde, #000);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent
  }
  
  
