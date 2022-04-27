@@ -16,6 +16,7 @@ body{
  }
  
  h1 {
+    text-align: center;
     text-shadow: #F8F8FF 1px 0 10px;
     font-family: 'Homemade Apple', cursive;
  
@@ -33,10 +34,11 @@ body{
    top : 0;
    position: inherit;
    z-index: 1;
-   background-image: url("Bannière\ cv\ haut.png");
+   background-image: url("images/Bannière\ cv\ haut.png");
    background-color: transparent;
    color : #F8F8FF;
    border: dashed;
+   text-align: center;
    border-width: 2px 4px;
    border-radius: 40px;
    margin-bottom: 2%;
@@ -48,7 +50,6 @@ body{
  .button {
    display: inline-flex;
    color: #FDFEFE;
-   text-align: center;
    text-shadow: 0px 0px 2px rgb(255, 255, 255), 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(255, 255, 255);
    justify-content: center;
    align-items: center;
@@ -129,11 +130,12 @@ body{
     border-color:#FDFEFE;
     height : 184px;
     text-align : center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
  }
     
  /*********** Partie droite ***********/ 
- 
- 
  
  .adroite {
     width: 70%;
@@ -198,7 +200,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("Bannière\ cv\ haut.png");
+    background-image: url("images/Bannière\ cv\ haut.png");
     text-shadow: #F8F8FF 1px 0 10px;
     color: #F8F8FF;
     border: dashed;
@@ -284,7 +286,7 @@ body{
    top : 0;
    position: inherit;
    z-index: 1;
-   background-image: url("Bannière\ cv\ haut.png");
+   background-image: url("images/Bannière\ cv\ haut.png");
    background-color: transparent;
    color : #F8F8FF;
    border: dashed;
@@ -445,7 +447,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("Bannière\ cv\ haut.png");
+    background-image: url("images/Bannière\ cv\ haut.png");
     text-shadow: #F8F8FF 1px 0 10px;
     color: #F8F8FF;
     border: dashed;
