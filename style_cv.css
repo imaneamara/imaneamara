@@ -184,7 +184,11 @@ body{
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent
  }
- 
+
+ .adroite h4 {
+    font-style: italic;
+    font-weight: bold;
+ }
  
  .adroite div {
     margin-bottom: 70px;
