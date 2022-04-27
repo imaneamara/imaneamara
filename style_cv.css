@@ -135,6 +135,7 @@ body{
       margin-left: auto;
       margin-right: auto;
       margin-top: 20px; 
+      margin-bottom: 45px;
  }
  
  /*********** Image partie gauche ***********/ 
@@ -274,4 +275,18 @@ body{
     border-color: white;
     display: inline-block;
     margin-right: 35px;
+ }
+
+ .horizontal {
+    border: solid;
+    border-width: 1px;
+    width: 155px;
+    border-color:rgb(255, 255, 255);
+    display: flex;
+    margin-top: -17px;
+    margin-bottom: 25px;
+    text-align : center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
  }
