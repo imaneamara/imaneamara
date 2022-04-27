@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
+<meta charset="UTF-8">
 
 	<head>
-		<meta charset="UTF-8">
+		
 		<link rel="stylesheet" href="style_cv.css">
 		<title>CV d'Imane AMARA</title>
-		<html lang="fr"></html>
 		
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +13,8 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Roboto:wght@100&display=swap" rel="stylesheet">
-		<link rel="shortcut icon" type="image/x-icon" href="images/icon.png">
+		<link rel="stylesheet" href="images/fontawesome/css/font-awesome.min.css">
+		<link rel="shortcut icon" type="image/x-icon" href="images/icon.png"/>
 
 		
 	</head>
@@ -34,17 +35,13 @@
 			alt="Imane Amara" id="photo">
 		
 			<h2>Informations personnelles</h2>
-			<ul>
-				<li>
-				Née le 1 juin 2000
-				</li>
-				<li>
-				Nationalité française
-				</li>
-				<li>
-				<img class="telpic" src="images/telpic.png"  alt="Telnumber">
-				</li>
-			</ul>
+				<i class="fa fa-birthday-cake" aria-hidden="true"></i>
+				<p>1er juin 2000</p>
+				<i class="fa fa-home" aria-hidden="true"></i>
+				<p>Boissy-Saint-Léger</p>
+				<i class="fa fa-flag" aria-hidden="true"></i><p>Nationalité française</p>
+				<i class="fa fa-phone" aria-hidden="true"><img class="telpic" src="images/telpic.png"  alt="Telnumber"></i>
+
 		
 			<h2>Compétences</h2>
 			<ul>
@@ -52,7 +49,7 @@
 				Maîtrise des logiciels informatiques et bureautiques : Suite Office, Photoshop
 				</li>
 				<li>
-				Qualités d'expression écrite et orale
+				Qualités d'expression écrites et orales
 				</li>
 				<li>
 				Gestion de projets, travail de groupe
@@ -88,6 +85,9 @@
 				</li>
 			</ul>
 		</div>
+		
+		
+		
 
 		<div class="adroite">
             <div id="Experiences"><h2><b>Expériences</b><img class="mountainh2" src="images/icon.png" alt="montagne"></h2>
@@ -245,11 +245,9 @@
 			<a href="#" class="retourhaut">Haut de page</a>
 
 		</div>
-
-		<script>
 		
+		<script>
 			function sameSize(id1, id2, id3)
-			
 			{
 				let box = document.querySelector(id2);
 				let height = box.offsetHeight;

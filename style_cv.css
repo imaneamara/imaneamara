@@ -1,5 +1,7 @@
 html { 
    scroll-behavior: smooth; 
+   background-image: url(images/background1.png);
+   background-repeat: repeat-x;
    }
 
 /*********** BODY  + Modifications balises de bases ***********/ 
@@ -15,16 +17,7 @@ body{
     background-image: url;
  }
  
- h1 {
-    text-align: center;
-    text-shadow: #F8F8FF 1px 0 10px;
-    font-family: 'Homemade Apple', cursive;
  
- }
-
- li {
-    margin-bottom: 10px;
- }
  
  /*********** ENTETE ***********/ 
  
@@ -44,7 +37,16 @@ body{
    margin-bottom: 2%;
    min-width: 850px;
  }
- 
+
+ h1 {
+    text-align: center;
+    text-shadow: #F8F8FF 1px 0 10px;
+    font-family: 'Homemade Apple', cursive;
+ }
+
+ li {
+    margin-bottom: 10px;
+ }
  /*********** Bouton entete ***********/ 
  
  .button {
@@ -108,7 +110,19 @@ body{
  }
 
  .agauche ul {
+   font-family: "roboto", sans-serif;
     margin-bottom: 50px;
+ }
+
+ .agauche > p {
+    text-align: center;
+ }
+
+ .agauche i {
+   text-align : center;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
  }
 
    .agauche .telpic {
@@ -116,6 +130,11 @@ body{
       height: 14px;
       top: 15px;
       margin-right: 10px;
+      text-align : center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px; 
  }
  
  /*********** Image partie gauche ***********/ 
@@ -180,7 +199,7 @@ body{
     margin-bottom: 30px;
     margin-top: 30px;
     letter-spacing: 3px;
-    background: linear-gradient(to right, #36ecde, #000);
+    background: linear-gradient(to right, #1e3a45, #8ebbc6);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent
  }
