@@ -217,6 +217,10 @@ body{
     margin-bottom: 70px;
  }
 
+ .rightcontainer {
+   margin-bottom: 10px;
+ }
+
  .boxdroite {
     display: inline block;
     float: right;
@@ -224,12 +228,11 @@ body{
  }
 
  .verticaldroite {
-   border: solid;
+    border: solid;
     border-width: 1px;
     width: 1px;
     height: 113px;
     border-color:rgb(33, 106, 134);
-    margin-bottom: -80px;
     display: block;
     text-align : center;
     margin-left: auto;
