@@ -209,44 +209,75 @@ body{
  }
 
  .adroite h4 {
-    font-style: italic;
     font-weight: bold;
  }
  
  .adroite div {
-    margin-bottom: 70px;
+    margin-bottom: 20px;
  }
 
- .rightcontainer {
-   margin-bottom: 10px;
+ /*Mise en page - Expériences - Guerbet*/
+
+ .rightcontainerguerbet {
+   float: left;
+   width: 95%;
+   margin-top: 10px;
+   margin-right: 5%;
+   vertical-align: middle;
  }
 
- .boxdroite {
+ .boxdroiteguerbet {
+   height: 100%;
     display: inline block;
     float: right;
-    margin-right: 10%;
- }
-
- .verticaldroite {
-    border: solid;
-    border-width: 1px;
-    width: 1px;
-    height: 113px;
-    border-color:rgb(33, 106, 134);
-    display: block;
-    text-align : center;
-    margin-left: auto;
-    margin-right: auto;
+    border-left: solid;
+    border-left: dashed;
+    border-color: rgb(47, 108, 117);
+    padding-left: 72px;
  }
 
  .gbt {
-    height: 50px;
+    height: 100%;
     text-align: left;
-    display: flex;
-    margin-bottom: 50px;
-    margin-left: 10%;
+    width: 35%;
+    display: inline block;
+    margin-top: 30px;
+ }
+
+
+ /* Mise en page : expériences/guerbet */
+
+ .rightcontaineraphp {
+   float: left;
+   width: 100%;
+   margin-top: 10px;
+   margin-right: 5%;
+   vertical-align: middle;
+ }
+
+ .boxdroiteaphp {
+   height: 100%;
+    display: inline block;
+    float: right;
+    border-left: solid;
+    border-left: dashed;
+    border-color: rgb(47, 108, 117);
+    padding-left: 20px;
  }
  
+ .aphp {
+   text-align: left;
+   width: 175px;
+   display: inline block;
+   margin-top: 30px;
+   margin-left: 5%;
+   padding-right: 10px;
+}
+
+/* Mise en page : expériences/parthemis*/
+
+
+
  /*********** Partie en bas ***********/ 
  
  .enbas {
