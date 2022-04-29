@@ -174,7 +174,7 @@ body{
     margin-bottom: 2%;
     padding-left: 15px;
  }
- .adroite > div > h2 {
+ .adroite h2 {
     font-family: 'Homemade Apple', cursive;
     text-shadow: 3px 2px #B8CBD0;
     margin-left: 5px;
@@ -224,16 +224,36 @@ body{
    margin-top: 10px;
    margin-right: 5%;
    vertical-align: middle;
+   margin-bottom: 5%;
+   border: dashed;
+    border-color : #B8CBD0;
+    border-width: 2px 4px;
+    border-radius: 40px;
+ }
+
+ .horizontaleguerbet {
+   display: flex;
+   width: 1px;
+   height: 95px;
+    align-items: center;
+    justify-content: center;
+   margin-top: -60px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   padding-right: 2%;
+   border-left: dashed;
+   border-color: rgb(47, 108, 117);
  }
 
  .boxdroiteguerbet {
    height: 100%;
     display: inline block;
     float: right;
-    border-left: solid;
-    border-left: dashed;
-    border-color: rgb(47, 108, 117);
-    padding-left: 72px;
+    padding-right: 2%;
+    padding-left: 70px;
+    margin-top: -105px;
+    margin-left: 315px;
  }
 
  .gbt {
@@ -245,7 +265,7 @@ body{
  }
 
 
- /* Mise en page : expériences/guerbet */
+ /* Mise en page : expériences/aphp */
 
  .rightcontaineraphp {
    float: left;
@@ -253,16 +273,35 @@ body{
    margin-top: 10px;
    margin-right: 5%;
    vertical-align: middle;
+   border: dashed;
+    border-color : #B8CBD0;
+    border-width: 2px 4px;
+    border-radius: 40px;
+ }
+
+ .horizontaleaphp {
+   display: flex;
+   width: 1px;
+   height: 150px;
+    align-items: center;
+    justify-content: center;
+   margin-top: -60px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   padding-right: 2%;
+   border-left: dashed;
+   border-color: rgb(47, 108, 117);
  }
 
  .boxdroiteaphp {
-   height: 100%;
+    height: 100%;
     display: inline block;
     float: right;
-    border-left: solid;
-    border-left: dashed;
-    border-color: rgb(47, 108, 117);
-    padding-left: 20px;
+    padding-right: 2%;
+    padding-left: 70px;
+    margin-top: -150px;
+    margin-left: 315px;
  }
  
  .aphp {
@@ -272,10 +311,103 @@ body{
    margin-top: 30px;
    margin-left: 5%;
    padding-right: 10px;
+   margin-top: 3%;
 }
 
 /* Mise en page : expériences/parthemis*/
 
+ .rightcontainerparthemis {
+   float: left;
+   width: 100%;
+   margin-top: 10px;
+   margin-right: 5%;
+   vertical-align: middle;
+   border: dashed;
+    border-color : #B8CBD0;
+    border-width: 2px 4px;
+    border-radius: 40px;
+ }
+
+ .horizontaleparthemis {
+   display: flex;
+   width: 1px;
+   height: 70px;
+    align-items: center;
+    justify-content: center;
+   margin-top: -60px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   padding-right: 2%;
+   border-left: dashed;
+   border-color: rgb(47, 108, 117);
+ }
+
+ .boxdroiteparthemis {
+   height: 100%;
+    display: inline block;
+    float: right;
+    padding-right: 2%;
+    padding-left: 30px;
+    margin-top: -70px;
+    margin-left: 300px;
+ }
+ 
+ .parthemis {
+   text-align: left;
+   width: 80px;
+   display: inline block;
+   padding-top: 15px;
+   margin-left: 20%;
+}
+
+/* Mise en page : diplômes/upec*/
+
+.rightcontainerupec {
+   float: left;
+   width: 100%;
+   margin-top: 10px;
+   margin-right: 5%;
+   vertical-align: middle;
+   border: dashed;
+    border-color : #B8CBD0;
+    border-width: 2px 4px;
+    border-radius: 40px;
+ }
+
+ .horizontaleupec {
+   display: flex;
+   width: 1px;
+   height: 250px;
+    align-items: center;
+    justify-content: center;
+   margin-top: -60px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   padding-right: 2%;
+   border-left: dashed;
+   border-color: rgb(47, 108, 117);
+ }
+
+ .boxdroiteupec {
+   height: 100%;
+    display: inline block;
+    float: right;
+    padding-right: 2%;
+    padding-left: 70px;
+    margin-top: -250px;
+    margin-left: 315px;
+ }
+ 
+ .upec {
+   text-align: left;
+   width: 160px;
+   display: inline block;
+   margin-top: 20px;
+   margin-left: 5%;
+   padding-right: 10px;
+}
 
 
  /*********** Partie en bas ***********/ 
