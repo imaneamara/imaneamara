@@ -87,6 +87,7 @@ body{
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 2%;
+    padding-right: 5px;
     min-width: 200px;
  }
  
@@ -131,12 +132,13 @@ body{
       top: 15px;
       margin-right: 10px;
       text-align : center;
-      display: block;
-      margin-left: auto;
+      margin-left: 3%;
       margin-right: auto;
-      margin-top: 20px; 
+      margin-top: 5px; 
       margin-bottom: 45px;
  }
+
+
  
  /*********** Image partie gauche ***********/ 
  
@@ -149,6 +151,7 @@ body{
     border: solid;
     border-color:#FDFEFE;
     height : 184px;
+    align-content: center;
     text-align : center;
     display: block;
     margin-left: auto;
@@ -213,7 +216,33 @@ body{
  .adroite div {
     margin-bottom: 70px;
  }
- 
+
+ .boxdroite {
+    display: inline block;
+    float: right;
+    margin-right: 10%;
+ }
+
+ .verticaldroite {
+   border: solid;
+    border-width: 1px;
+    width: 1px;
+    height: 113px;
+    border-color:rgb(33, 106, 134);
+    margin-bottom: -80px;
+    display: block;
+    text-align : center;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .gbt {
+    height: 50px;
+    text-align: left;
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 10%;
+ }
  
  /*********** Partie en bas ***********/ 
  
