@@ -126,6 +126,10 @@ body{
    margin-right: auto;
  }
 
+ .agauche #allemand {
+    padding-bottom:15%;
+ }
+
    .agauche .telpic {
       width: 100px;
       height: 14px;
@@ -149,17 +153,17 @@ body{
  /*********** Image partie gauche ***********/ 
  
  .photo {
-    margin-top : 30px;
-    margin-bottom : 10px;
+    margin-top : 5%;
+    margin-bottom : 20%;
     width : 200px;
     border-radius : 50%;
     border-width: 0.5px;
     border: solid;
     border-color:#FDFEFE;
     height : 184px;
+    display: flex;
     align-content: center;
     text-align : center;
-    display: block;
     margin-left: auto;
     margin-right: auto;
  }
