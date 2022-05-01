@@ -96,6 +96,7 @@ body{
     text-shadow: 3px 2px #F8F8FF;
     margin-left: 5px;
     margin-right: 5px;
+    margin-bottom: 10%;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -174,6 +175,7 @@ body{
     margin-bottom: 2%;
     padding-left: 15px;
  }
+
  .adroite h2 {
     font-family: 'Homemade Apple', cursive;
     text-shadow: 3px 2px #B8CBD0;
@@ -194,8 +196,16 @@ body{
    float: right;
    margin-right: 22px;
 }
+
+.adroite ul {
+   margin-bottom: 7%;
+}
  
+.adroite #Diplômes {
+   margin-top: 10%;
+}
  .adroite #Divers {
+    margin-top: 10%;
     margin-bottom: 3px;
  }
  
@@ -212,9 +222,9 @@ body{
     font-weight: bold;
  }
  
- .adroite div {
-    margin-bottom: 20px;
- }
+ 
+
+
 
  /*Mise en page - Expériences - Guerbet*/
 
@@ -269,10 +279,11 @@ body{
 
  .rightcontaineraphp {
    float: left;
-   width: 100%;
+   width: 95%;
    margin-top: 10px;
    margin-right: 5%;
    vertical-align: middle;
+   margin-bottom: 5%;
    border: dashed;
     border-color : #B8CBD0;
     border-width: 2px 4px;
@@ -282,10 +293,10 @@ body{
  .horizontaleaphp {
    display: flex;
    width: 1px;
-   height: 150px;
+   height: 130px;
     align-items: center;
     justify-content: center;
-   margin-top: -60px;
+   margin-top: -80px;
    text-align: center;
    margin-left: auto;
    margin-right: auto;
@@ -295,80 +306,34 @@ body{
  }
 
  .boxdroiteaphp {
-    height: 100%;
-    display: inline block;
-    float: right;
-    padding-right: 2%;
-    padding-left: 70px;
-    margin-top: -150px;
-    margin-left: 315px;
- }
- 
- .aphp {
-   text-align: left;
-   width: 175px;
-   display: inline block;
-   margin-top: 30px;
-   margin-left: 5%;
-   padding-right: 10px;
-   margin-top: 3%;
-}
-
-/* Mise en page : expériences/parthemis*/
-
- .rightcontainerparthemis {
-   float: left;
-   width: 100%;
-   margin-top: 10px;
-   margin-right: 5%;
-   vertical-align: middle;
-   border: dashed;
-    border-color : #B8CBD0;
-    border-width: 2px 4px;
-    border-radius: 40px;
- }
-
- .horizontaleparthemis {
-   display: flex;
-   width: 1px;
-   height: 70px;
-    align-items: center;
-    justify-content: center;
-   margin-top: -60px;
-   text-align: center;
-   margin-left: auto;
-   margin-right: auto;
-   padding-right: 2%;
-   border-left: dashed;
-   border-color: rgb(47, 108, 117);
- }
-
- .boxdroiteparthemis {
    height: 100%;
     display: inline block;
     float: right;
     padding-right: 2%;
-    padding-left: 30px;
-    margin-top: -70px;
+    padding-left: 70px;
+    margin-top: -142px;
     margin-left: 300px;
  }
- 
- .parthemis {
-   text-align: left;
-   width: 80px;
-   display: inline block;
-   padding-top: 15px;
-   margin-left: 20%;
-}
 
-/* Mise en page : diplômes/upec*/
+ .aphp {
+    height: 100%;
+    text-align: left;
+    width: 35%;
+    display: inline block;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+ }
 
-.rightcontainerupec {
+ /* Mise en page : diplômes/upec */
+
+ .rightcontainerupec {
    float: left;
-   width: 100%;
+   width: 95%;
    margin-top: 10px;
    margin-right: 5%;
    vertical-align: middle;
+   margin-bottom: 5%;
    border: dashed;
     border-color : #B8CBD0;
     border-width: 2px 4px;
@@ -378,10 +343,10 @@ body{
  .horizontaleupec {
    display: flex;
    width: 1px;
-   height: 250px;
+   height: 240px;
     align-items: center;
     justify-content: center;
-   margin-top: -60px;
+   margin-top: -116px;
    text-align: center;
    margin-left: auto;
    margin-right: auto;
@@ -396,18 +361,70 @@ body{
     float: right;
     padding-right: 2%;
     padding-left: 70px;
-    margin-top: -250px;
-    margin-left: 315px;
+    margin-top: -242px;
+    margin-left: 300px;
  }
- 
+
  .upec {
-   text-align: left;
-   width: 160px;
-   display: inline block;
-   margin-top: 20px;
-   margin-left: 5%;
-   padding-right: 10px;
-}
+    height: 100%;
+    text-align: left;
+    width: 30%;
+    display: inline block;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+ }
+
+
+ /* Mise en page : diplômes/paris1 */
+
+ .rightcontainerparis1 {
+   float: left;
+   width: 95%;
+   margin-top: 10px;
+   margin-right: 5%;
+   vertical-align: middle;
+   margin-bottom: 5%;
+   border: dashed;
+    border-color : #B8CBD0;
+    border-width: 2px 4px;
+    border-radius: 40px;
+ }
+
+ .horizontaleparis1 {
+   display: flex;
+   width: 1px;
+   height: 180px;
+    align-items: center;
+    justify-content: center;
+   margin-top: -83px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   padding-right: 2%;
+   border-left: dashed;
+   border-color: rgb(47, 108, 117);
+ }
+
+ .boxdroiteparis1 {
+   height: 100%;
+    display: inline block;
+    float: right;
+    padding-right: 2%;
+    padding-left: 70px;
+    margin-top: -207px;
+    margin-left: 300px;
+ }
+
+ .paris1 {
+    height: 100%;
+    text-align: left;
+    width: 30%;
+    display: inline block;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+ }
 
 
  /*********** Partie en bas ***********/ 
