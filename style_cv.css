@@ -207,13 +207,14 @@ body{
  .adroite #Divers {
     margin-top: 10%;
     margin-bottom: 3px;
+    margin-right: 2%;
  }
  
  .adroite h3 {
     margin-bottom: 30px;
     margin-top: 30px;
     letter-spacing: 3px;
-    background: linear-gradient(to right, #1e3a45, #8ebbc6);
+    background: linear-gradient(to right, #18282f, #8ebbc6);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent
  }
