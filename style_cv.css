@@ -275,6 +275,12 @@ body{
     margin-top: 30px;
  }
 
+ ul {
+ list-style:none;
+  padding-right:20px;
+  text-align:right;
+ }
+  
 
  /* Mise en page : expériences/aphp */
 
