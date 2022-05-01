@@ -138,6 +138,12 @@ body{
       margin-bottom: 45px;
  }
 
+ .agauche .Langues {
+    width:20px;
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+ }
 
  
  /*********** Image partie gauche ***********/ 
