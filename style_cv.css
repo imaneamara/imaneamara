@@ -223,13 +223,9 @@ body{
     font-weight: bold;
  }
  
+ /*Mise en page générale : photo vs expérience/diplôme*/
  
-
-
-
- /*Mise en page - Expériences - Guerbet*/
-
- .rightcontainerguerbet {
+.rightcontainer {
    float: left;
    width: 95%;
    margin-top: 10px;
@@ -242,190 +238,22 @@ body{
     border-radius: 40px;
  }
 
- .horizontaleguerbet {
-   display: flex;
-   width: 1px;
-   height: 95px;
-    align-items: center;
-    justify-content: center;
-   margin-top: -60px;
-   text-align: center;
-   margin-left: auto;
-   margin-right: auto;
-   padding-right: 2%;
-   border-left: dashed;
-   border-color: rgb(47, 108, 117);
- }
-
- .boxdroiteguerbet {
-   height: 100%;
-    display: inline block;
-    float: right;
-    padding-right: 2%;
-    padding-left: 70px;
-    margin-top: -105px;
-    margin-left: 315px;
- }
-
- .gbt {
-    height: 100%;
-    text-align: left;
-    width: 35%;
-    display: inline block;
-    margin-top: 30px;
- }
-  
-
- /* Mise en page : expériences/aphp */
-
- .rightcontaineraphp {
-   float: left;
-   width: 95%;
-   margin-top: 10px;
-   margin-right: 5%;
-   vertical-align: middle;
-   margin-bottom: 5%;
-   border: dashed;
-    border-color : #B8CBD0;
-    border-width: 2px 4px;
-    border-radius: 40px;
- }
-
- .horizontaleaphp {
-   display: flex;
-   width: 1px;
-   height: 130px;
-    align-items: center;
-    justify-content: center;
-   margin-top: -80px;
-   text-align: center;
-   margin-left: auto;
-   margin-right: auto;
-   padding-right: 2%;
-   border-left: dashed;
-   border-color: rgb(47, 108, 117);
- }
-
- .boxdroiteaphp {
-   height: 100%;
-    display: inline block;
-    float: right;
-    padding-right: 2%;
-    padding-left: 70px;
-    margin-top: -142px;
-    margin-left: 315px;
- }
-
- .aphp {
-    height: 100%;
-    text-align: left;
-    width: 35%;
-    display: inline block;
-    margin-top: 35px;
-    margin-bottom: 10px;
-    margin-left: 10px;
- }
-
- /* Mise en page : diplômes/upec */
-
- .rightcontainerupec {
-   float: left;
-   width: 95%;
-   margin-top: 10px;
-   margin-right: 5%;
-   vertical-align: middle;
-   margin-bottom: 5%;
-   border: dashed;
-    border-color : #B8CBD0;
-    border-width: 2px 4px;
-    border-radius: 40px;
- }
-
- .horizontaleupec {
-   display: flex;
-   width: 1px;
-   height: 350px;
-    align-items: center;
-    justify-content: center;
-   margin-top: -116px;
-   text-align: center;
-   margin-left: auto;
-   margin-right: auto;
-   padding-right: 2%;
-   border-left: dashed;
-   border-color: rgb(47, 108, 117);
- }
-
- .boxdroiteupec {
+ .boxdroite {
    height: 100%;
     display: inline block;
     float: right;
     padding-right: 2%;
     padding-left: 60%;
-    margin-top: -360px;
  }
 
- .upec {
+ .photodroite {
     height: 100%;
     text-align: left;
     width: 30%;
     display: inline block;
-    margin-top: 35px;
-    margin-bottom: 10px;
-    margin-left: 20px;
+    margin-bottom: -13%;
+    margin-left: 5%;
  }
-
-
- /* Mise en page : diplômes/paris1 */
-
- .rightcontainerparis1 {
-   float: left;
-   width: 95%;
-   margin-top: 10px;
-   margin-right: 5%;
-   vertical-align: middle;
-   margin-bottom: 5%;
-   border: dashed;
-    border-color : #B8CBD0;
-    border-width: 2px 4px;
-    border-radius: 40px;
- }
-
- .horizontaleparis1 {
-   display: flex;
-   width: 1px;
-   height: 180px;
-    align-items: center;
-    justify-content: center;
-   margin-top: -83px;
-   text-align: center;
-   margin-left: auto;
-   margin-right: auto;
-   padding-right: 2%;
-   border-left: dashed;
-   border-color: rgb(47, 108, 117);
- }
-
- .boxdroiteparis1 {
-   height: 100%;
-    display: inline block;
-    float: right;
-    padding-right: 2%;
-    padding-left: 70px;
-    margin-top: -207px;
-    margin-left: 315px;
- }
-
- .paris1 {
-    height: 100%;
-    text-align: left;
-    width: 30%;
-    display: inline block;
-    margin-top: 35px;
-    margin-bottom: 10px;
-    margin-left: 20px;
- }
-
 
  /*********** Partie en bas ***********/ 
  
