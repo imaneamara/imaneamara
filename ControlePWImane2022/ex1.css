@@ -1,0 +1,52 @@
+.enormeconteneur {
+    margin-top : 2%;
+    display : flex;
+    flex-direction : row;
+    gap : 5px;
+    justify-content : space-around;
+    height : 60%;
+}
+
+/************CENTRE**********/
+.aucentre {
+    background-color: #4f4f51;
+}
+
+.aucentre1 {
+    background-color : #a6a6aa;
+}
+
+.aucentre1 h1 {
+    color : #d3d3d4;
+    text-align : center;
+    text-decoration: underline;
+}
+
+.aucentre2 {
+    background-color: #a6a6aa;
+}
+
+
+
+/*********AGAUCHE**********/
+.agauche {
+    background-color : #a6a6aa;
+}
+
+.agauche h1 {
+    color : #d3d3d4;
+}
+
+.agauche p {
+    text-align: left;
+}
+
+/********ADROITE********/
+.adroite {
+}
+
+/***********BAS***********/
+.enbas {
+    flex-wrap:wrap;
+    text-align: center;
+}
