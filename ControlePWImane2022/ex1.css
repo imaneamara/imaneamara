@@ -1,52 +1,148 @@
-.enormeconteneur {
-    margin-top : 2%;
-    display : flex;
-    flex-direction : row;
-    gap : 5px;
-    justify-content : space-around;
-    height : 60%;
+/* Partie top de la page (regroupant les 3 div) */
+
+.top div{
+    display: inline-block;
+    margin-top: 8px;
 }
 
-/************CENTRE**********/
-.aucentre {
-    background-color: #4f4f51;
+/* Partie gauche du top */
+
+.left{
+    background-color: rgb(173, 168, 168);
+    margin-left: 5px;
+    margin-top: 7px;
+    width: 25%;
+    text-align: center;
+    border-top: solid;
+    border-bottom: solid;
+    border-left: solid;
+    border-color: grey;
 }
 
-.aucentre1 {
-    background-color : #a6a6aa;
+.left h1{
+    padding: 2px;
+    background-color: white;
+    margin-right: 8px;
+    margin-left: 8px;
+    border: solid;
+    border-color: grey;
 }
 
-.aucentre1 h1 {
-    color : #d3d3d4;
-    text-align : center;
-    text-decoration: underline;
+.left p{
+    padding: 5px;
+    width: 25%;
 }
 
-.aucentre2 {
-    background-color: #a6a6aa;
+/* Partie centre du top */
+
+.center{
+    background-color: rgb(158, 153, 153);
+    margin: 5px;
+    width: 46%;
+    text-align: justify;
+    border: solid;
+    border-color: grey;
+    border-style: dashed solid;
+}
+
+.centerTop{
+    margin: 5px;
+    background-color: rgb(172, 171, 171);
+    width: 99%;
+    border-top: solid;
+    border-color: grey;
+    
+}
+
+.centerTop h1{
+    padding: 2px;
+    background-color: white;
+    margin-right: 25%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.centerTop p{
+    padding: 5px;
+    text-align: justify;
 }
 
 
-
-/*********AGAUCHE**********/
-.agauche {
-    background-color : #a6a6aa;
+.centerBottom{
+    margin: 5px;
+    background-color: rgb(172, 171, 171);
+    width: 99%;
+    border-bottom: solid;
+    border-color: grey;
 }
 
-.agauche h1 {
-    color : #d3d3d4;
+.centerBottom h1{
+    padding: 2px;
+    text-align: right;
 }
 
-.agauche p {
-    text-align: left;
+.centerBottom p{
+    padding: 5px;
+    text-align: justify;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-left: solid;
+    border-right: solid;
+    border-color: grey;
 }
 
-/********ADROITE********/
-.adroite {
+
+/* Partie droite du top */
+
+.right{
+    background-color: rgb(173, 168, 168);
+    margin-left: 5px;
+    margin-top: 7px;
+    width: 25%;
+    text-align: right;
+    border-top: solid;
+    border-bottom: solid;
+    border-right: solid;
+    border-color: grey;
 }
 
-/***********BAS***********/
-.enbas {
-    flex-wrap:wrap;
+.right h1{
+    padding: 2px;
+    background-color: white;
+    margin-right: 8px;
+    margin-left: 8px;
+    text-align: center;
+    border: solid;
+    border-color: grey;
+}
+
+.right p{
+    padding: 5px;
+}
+
+/* Partie bottom */
+
+.bottom{
+    bottom: 0;
+    position: absolute;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 5px;
+    width: 95%;
+    background-color: rgb(187, 187, 187);
+    border-left: solid;
+    border-right: solid;
+    border-color: grey;
+}
+
+.bottom h1{
+    background-color: rgb(207, 205, 205);
+    margin-top: 25px;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: center;
+}
+
+.bottom p{
     text-align: center;
 }
