@@ -1,3 +1,8 @@
+body {
+   margin-left: 10%;
+   margin-right: 10%;
+}
+
 .entete {
     font-family: 'Homemade Apple', cursive;
     height: 160px;
