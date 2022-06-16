@@ -1,148 +1,157 @@
-/* Partie top de la page (regroupant les 3 div) */
+* {
+    margin: 0%;
+  }
 
-.top div{
-    display: inline-block;
-    margin-top: 8px;
+.top {
+    display : flex;
+    flex-direction : row;
+    margin-top : 2%;
+    justify-content : space-around;
+    height : 72%;
+    align-items : baseline;
+    gap : 5px;
 }
 
-/* Partie gauche du top */
-
-.left{
-    background-color: rgb(173, 168, 168);
-    margin-left: 5px;
-    margin-top: 7px;
-    width: 25%;
-    text-align: center;
-    border-top: solid;
-    border-bottom: solid;
-    border-left: solid;
-    border-color: grey;
+.center {
+    display : flex;
+    flex-direction : column;
+    border-width : 5px;
+    border-color: #cac6c6;
+    border-style : solid;
+    text-align : justify;
+    width : 52%;
+    height : 100%;
+    background-color: #686666;
 }
 
-.left h1{
-    padding: 2px;
-    background-color: white;
-    margin-right: 8px;
-    margin-left: 8px;
-    border: solid;
-    border-color: grey;
-}
-
-.left p{
-    padding: 5px;
-    width: 25%;
-}
-
-/* Partie centre du top */
-
-.center{
-    background-color: rgb(158, 153, 153);
-    margin: 5px;
-    width: 46%;
-    text-align: justify;
-    border: solid;
-    border-color: grey;
-    border-style: dashed solid;
-}
-
-.centerTop{
-    margin: 5px;
-    background-color: rgb(172, 171, 171);
-    width: 99%;
-    border-top: solid;
-    border-color: grey;
-    
+.centerTop {
+  
+    border-width : 5px;
+    border-color : #A9A9A9;
+    border-bottom : solid;
+    border-right: solid;
 }
 
 .centerTop h1{
-    padding: 2px;
-    background-color: white;
-    margin-right: 25%;
-    margin-left: 25%;
-    text-align: center;
+   
+    text-align : center;
+    border : solid;
+    background-color: rgb(255, 255, 255);
+    border-color : rgb(255, 255, 255); 
+    margin-right : 25%;
+    margin-left : 25%;
 }
 
 .centerTop p{
-    padding: 5px;
-    text-align: justify;
+    margin-top : 1%;
+    margin-bottom : 3%;
 }
 
-
-.centerBottom{
-    margin: 5px;
-    background-color: rgb(172, 171, 171);
-    width: 99%;
-    border-bottom: solid;
-    border-color: grey;
+.centerBottom {
+    height : auto;
 }
 
 .centerBottom h1{
-    padding: 2px;
-    text-align: right;
+    margin-top : 3%;
+    text-align : right;
+    justify-content : center;
 }
 
 .centerBottom p{
-    padding: 5px;
-    text-align: justify;
-    margin-left: 25%;
-    margin-right: 25%;
-    border-left: solid;
-    border-right: solid;
-    border-color: grey;
+    text-align : center;
+    justify-content : justify;
+    margin-top : 2%;
+    margin-left : 20%;
+    margin-right : 20%;
+    margin-bottom : 5%;
+    border-right : solid;
+    border-left : solid;
 }
 
+.left{
+    display : flex;
+    flex-direction : column;
+    background-color : #746d6d;
+    width : 20%;
+    border-style : solid;
+    padding-bottom : 5%;
+}
 
-/* Partie droite du top */
+.left h1{
+    text-align : center;
+    border-style : inset;
+    background-color: white;
+    margin-left : 5%;
+    margin-right : 5%;
+    margin-top : 3%;
+}
+
+.left p{
+    text-align : center;
+    justify-content : justify;
+    margin-left : 5%;
+    margin-right : 5%;
+    margin-top : 5%;
+}
+
+.left p::first-letter {
+    color: rgb(22, 26, 27);
+    font-size: 150%;
+    text-decoration: dashed;
+  }
 
 .right{
-    background-color: rgb(173, 168, 168);
-    margin-left: 5px;
-    margin-top: 7px;
-    width: 25%;
-    text-align: right;
-    border-top: solid;
-    border-bottom: solid;
-    border-right: solid;
-    border-color: grey;
+    display : flex;
+    flex-direction : column;
+    background-color : #746d6d;
+    border-bottom-style: outset;
+    width : 20%;
+    border-style : solid;
+    padding-bottom : 5%;
 }
 
-.right h1{
-    padding: 2px;
-    background-color: white;
-    margin-right: 8px;
-    margin-left: 8px;
-    text-align: center;
-    border: solid;
-    border-color: grey;
+.right h1 {
+    margin-left : 5%;
+    margin-right : 5%;
+    margin-top : 5%;
+    text-align : center;
+    border-style : outset;
+    background-color: rgb(255, 255, 255);
 }
 
 .right p{
-    padding: 5px;
+    margin-top : 5%;
+    border-right : 5%;
+    margin-right : 3%;
+    justify-content : justify; 
+    text-align : right;
 }
 
-/* Partie bottom */
-
-.bottom{
-    bottom: 0;
-    position: absolute;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 5px;
-    width: 95%;
-    background-color: rgb(187, 187, 187);
-    border-left: solid;
-    border-right: solid;
-    border-color: grey;
+.bottom {
+    background-color : #746d6d;;
+    margin-top : 2%;
+    margin-right : 5%;
+    margin-left : 5%;
+    margin-bottom : 2%;
+    clear: both;
+    text-align: center;
+    height : 60%;
+    border-top : solid;
+    border-color : rgb(99, 95, 95);
+    border-left : solid;
+    border-right : solid;
+    border-color : rgb(99, 95, 95);
 }
 
 .bottom h1{
-    background-color: rgb(207, 205, 205);
-    margin-top: 25px;
-    margin-left: 8px;
-    margin-right: 8px;
-    text-align: center;
+    margin-top : 2%;
+    background-color : rgb(255, 255, 255);
+    margin-bottom : 2%;
+    font-style: italic;
 }
 
 .bottom p{
-    text-align: center;
+    text-align : center;
+    margin-left : 20%;
+    margin-right : 20%;
 }
