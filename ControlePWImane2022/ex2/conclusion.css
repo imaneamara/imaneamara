@@ -77,3 +77,60 @@
     font-size: 130%;
     text-decoration: dashed;
   }
+
+  /*********** Partie en bas ***********/ 
+ 
+ .enbas {
+   height: 45px;
+   clear: both;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url("../../images/Bannierecvhaut.png");
+   text-shadow: #F8F8FF 1px 0 10px;
+   color: #F8F8FF;
+   border: dashed;
+   border-width: 2px 4px;
+   border-radius: 40px;
+}
+
+.enbas #prenom {
+   font-family: 'Homemade Apple', cursive;
+   font-size: 17px;
+   text-align: center;
+   font-weight: bold;
+   padding-right: 35px;
+}
+
+.enbas .retourhaut {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 17px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  padding-right: 35px;
+  text-shadow: #F8F8FF 1px 0 10px;
+  color: #F8F8FF;
+}
+
+.enbas .retourhaut:hover {
+  text-decoration: none;
+  color: #3f474f;
+  transition: 0.5s ease-in;
+}
+
+/* Barre de separation */
+
+.vertical{
+   border: solid;
+   border-width: 1px;
+   height: 25px;
+   border-color: white;
+   display: inline-block;
+   margin-right: 35px;
+}
+
+html { 
+   scroll-behavior: smooth; 
+}
