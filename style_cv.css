@@ -15,8 +15,35 @@ body{
     padding : 5px;
     min-width: 900px;
     background-image: url;
- }
+
+} 
+
+*.aboutme {
+   position: fixed;
+   bottom: 0;
+   left: 0;
+         box-sizing: border-box;
+         box-shadow: 10px 10px 5px #B8CBD0;
+        background-color: #F8F8FF;
+        text-align: center;
+        width: 130px;
+        padding: 10px;
+        margin: 13px;
+        font-size: x-small;
+        border: dashed;
+        border-color : #B8CBD0;
+        border-width: 2px 4px;
+        border-radius: 40px;
+        margin-left: 0.5%;
+
+        
+      }
  
+      *.aboutme h3 {
+      text-align: center;
+      font-family: 'Homemade Apple', cursive;
+      text-shadow: 3px 2px #B8CBD0;
+      }
  
  
  /*********** ENTETE ***********/ 
@@ -264,6 +291,9 @@ body{
     margin-bottom: -13%;
     margin-left: 5%;
  }
+
+
+
 
  /*********** Partie en bas ***********/ 
  
